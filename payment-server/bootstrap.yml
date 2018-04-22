@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: payment-server
+  cloud:
+    config:
+      uri: http://localhost:9999
+server:
+  port: 7002 //tell to use this port, in case server will not find remote configuration     
